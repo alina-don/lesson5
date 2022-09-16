@@ -1,0 +1,143 @@
+@font-face {
+	font-family: 'Aver';
+	src: url('../fonts/Aver.woff2') format('woff2'),
+		 url('../fonts/Aver.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Aver';
+	src: url('../fonts/Aver-Italic.woff2') format('woff2'),
+		 url('../fonts/Aver-Italic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Aver';
+	src: url('../fonts/Aver-Bold.woff2') format('woff2'),
+		 url('../fonts/Aver-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Aver';
+	src: url('../fonts/Aver-BoldItalic.woff2') format('woff2'),
+		 url('../fonts/Aver-BoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bitter';
+	src: url('../fonts/Bitter-Regular.woff2') format('woff2'),
+		 url('../fonts/Bitter-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bitter';
+	src: url('../fonts/Bitter-Italic.woff2') format('woff2'),
+		 url('../fonts/Bitter-Italic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bitter';
+	src: url('../fonts/') format('woff2'),
+		 url('../fonts/Bitter-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bitter';
+	src: url('../fonts/Aver-BoldItalic.woff2') format('woff2'),
+		 url('../fonts/Aver-BoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+
+* {
+	color: slateblue;
+}
+
+body {
+	font-size: 17px;
+	font-family: Bitter, 'Times New Roman', serif;
+	line-height: 1.3;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 34px;
+	font-family: Aver, 'Times New Roman', serif;
+	text-align: center;
+	color: orangered;
+	line-height: 1.6;
+}
+
+h2 {
+	font-size: 28px;
+	line-height: 1.5;
+	text-shadow: 1px 2px 4px rgb(134, 117, 139);
+	font-weight: 700;
+}
+
+h3 {
+	text-transform: uppercase;
+}
+
+h5 {
+	font-size: 13px;
+	font-style: italic;
+}
+
+h1 + h5 {
+	text-align: center;
+}
+
+div {
+	padding: 17px 0;
+}
+
+p {
+	text-indent: 30px;
+	text-align: justify;
+	word-spacing: 8px;
+}
+
+.subtitle + .header-text {
+	color: slategray;
+	padding: 10px 30px;
+}
+
+.introduction > p {
+	letter-spacing: 3px;
+}
+
+.link {
+	text-align: right;
+	text-decoration: underline;
+	text-transform: lowercase;
+}
+
+
+
+
+
+
+
+

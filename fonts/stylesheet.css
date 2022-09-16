@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Bitter';
+    src: url('Bitter-Italic.woff2') format('woff2'),
+        url('Bitter-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter';
+    src: url('Bitter-Regular.woff2') format('woff2'),
+        url('Bitter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter';
+    src: url('Bitter-BoldItalic.woff2') format('woff2'),
+        url('Bitter-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aver';
+    src: url('Aver-BoldItalic.woff2') format('woff2'),
+        url('Aver-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter';
+    src: url('Bitter-Bold.woff2') format('woff2'),
+        url('Bitter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aver';
+    src: url('Aver-Bold.woff2') format('woff2'),
+        url('Aver-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aver';
+    src: url('Aver-Italic.woff2') format('woff2'),
+        url('Aver-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aver';
+    src: url('Aver.woff2') format('woff2'),
+        url('Aver.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
